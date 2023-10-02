@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: "Arial Rounded MT Bold";
+}
+
+.menubar{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid brown;
+    border-bottom: 4px solid brown;
+    background-color: darkgray;
+
+}
+.menubar .menu{
+    list-style: none;
+    display: inline-block;
+
+
+
+}
+.menu .menuItem{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 50px;
+
+}
+.menu  .menuItem:hover{
+    background-color: brown;
+    color: white;
+
+}
+.menuItem:hover .menuProduct{
+    display: block;
+}
+.menuProduct{
+    list-style: none;
+    top: 50px;
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 10px black;
+    margin-left: -20px;
+
+
+}
+
+.itemProduct{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid grey;
+}
+.itemProduct:hover{
+    color: white;
+    background-color: brown;
+}
