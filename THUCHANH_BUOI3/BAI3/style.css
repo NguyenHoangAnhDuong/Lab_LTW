@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to right, rgba(130, 184, 244, 0.8), rgba(190, 132, 234, 0.8)), url("panel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login{
+    margin-top: 5%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+.title_Sign_In{
+    text-align: center;
+    color: #411B48;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+.Sign_In{
+
+
+}
+.form{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+
+}
+.name_Acc{
+    flex-basis: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+.name_Acc::placeholder{
+    color: #6E4E77;
+    font-weight: bold;
+}
+
+.pass{
+    flex-basis: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+.pass::placeholder{
+    color: #6E4E77;
+    font-weight: bold;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.btn_SignIn{
+    padding: 10px 45px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    background-color: violet;
+    text-transform: uppercase;
+
+}
+.title_login_With{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.login_With{
+    color: rgb(128, 128, 128);
+
+}
+.choose{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 100px;
+
+
+
+}
+.facebook{
+
+}
+.logo_facebook{
+    width: 50px;
+    border-radius: 60px;
+
+}
+.google{
+
+}
+.logo_google{
+    width: 52px;
+    border-radius: 60px;
+
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+}
+.sign_up{
+    color: #6E4E77;
+    font-weight: bold;
+
+}
