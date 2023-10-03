@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial Rounded MT Bold";
+}
+body{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    margin-top: 10%;
+    background: white;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+
+}
+.title_Contact_Us{
+    flex-basis: 100%;
+    padding: 10px;
+
+}
+.ContacUs{
+    text-align: center;
+
+}
+.form{
+    padding: 10px;
+    width: 100%;
+
+}
+.Input_Introduction{
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+
+
+}
+.titleInput{
+    display: flex;
+    color: #938888;
+
+}
+.waring{
+    color: red;
+
+}
+.input{
+    border: 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.input::placeholder{
+    color: #d4d4d0;
+}
+.row{
+    display: inline-flex;
+
+}
+.email{
+    margin-right: 10px;
+
+}
+.phone{
+
+}
+#choose{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border: 0;
+    background-color: #f7f7f7;
+    font-weight: bold;
+
+
+}
+.message{
+    background-color: white;
+}
+.mess{
+    border: 2px solid #f5f5f5;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+.submit{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 0;
+}
+.ti-arrow-circle-right{
+    color: white;
+}
+
